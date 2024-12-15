@@ -7,4 +7,4 @@ fastbook
 Pillow
 gdown
 opencv-python-headless
-streamlit run streamlit_app.py
+
