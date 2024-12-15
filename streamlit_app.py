@@ -54,10 +54,13 @@ if uploaded_file is not None:
 
     if prediction == labels[0]:
         st.write("League of Legends")
+        st.image('"C:\Users\dbstj\OneDrive\바탕 화면\game\fhf.jpg"')
     elif prediction == labels[1]:
         st.write("Lethal Company")
+        st.image('"C:\Users\dbstj\OneDrive\바탕 화면\game\flRjf.jpg"')
     elif prediction == labels[2]:
         st.write("VALORANT")
+        st.image('"C:\Users\dbstj\OneDrive\바탕 화면\game\qkffhfksxm.jpg"')
 
     for label, prob in zip(labels, probs):
         # HTML 및 CSS로 확률을 시각화
